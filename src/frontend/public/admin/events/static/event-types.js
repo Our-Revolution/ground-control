@@ -252,22 +252,22 @@ var eventTypes = [
 	// 	},
 	// 	adminOnly: false
 	// },
-	{
-		id: 'our-revolution-kickoff',
-		name: 'Our Revolution Organizing Kickoff',
-		defaultValues: {
-			name: 'August 24th Our Revolution Organizing Kickoff',
-			description: "On August 24th, 2016, we'll launch Our Revolution with a big Organizing Kickoff to get to work fighting for the political revolution—through November and beyond. Bernie will speak via livestream at 9 ET / 6 PT and lay out the path forward for our movement. We recommend arriving at least 30 minutes before the livestream starts.",
-			date: {
-				dateTime: new Date('August 24 2016 20:30:00'),
-				timeZone: 'US/Eastern'
-			},
-			duration_num: 1,
-			duration_unit: 60
-		},
-		disabled: ['attendee_volunteer_show','use_shifts'],
-		adminOnly: false
-	}
+	// {
+	// 	id: 'our-revolution-kickoff',
+	// 	name: 'Our Revolution Organizing Kickoff',
+	// 	defaultValues: {
+	// 		name: 'August 24th Our Revolution Organizing Kickoff',
+	// 		description: "On August 24th, 2016, we'll launch Our Revolution with a big Organizing Kickoff to get to work fighting for the political revolution—through November and beyond. Bernie will speak via livestream at 9 ET / 6 PT and lay out the path forward for our movement. We recommend arriving at least 30 minutes before the livestream starts.",
+	// 		date: {
+	// 			dateTime: new Date('August 24 2016 20:30:00'),
+	// 			timeZone: 'US/Eastern'
+	// 		},
+	// 		duration_num: 1,
+	// 		duration_unit: 60
+	// 	},
+	// 	disabled: ['attendee_volunteer_show','use_shifts'],
+	// 	adminOnly: false
+	// }
 	// { // Keep this event type in as an example for providing extra default values
 	// 	id: 44,
 	// 	name: 'Jan. 23rd Nationwide Bernie Address',
@@ -283,6 +283,24 @@ var eventTypes = [
 	// 	},
 	// 	adminOnly: false
 	// }
+	{
+		id: 'phone-bank',
+		name: 'Phone Bank',
+		defaultValues: {
+			name: 'Phone Bank',
+			description: "Phone bank parties are a fun and important way to help Our Revolution. Whether you’re phone banking with others or alone at your own home, you’re making a huge impact. Please <a href=\"https://go.ourrevolution.com/page/content/phonebank\"> click here to review the phone banking resources</a>. Remember, you'll need a reliable phone, plus a computer, laptop or tablet.",
+		},
+		adminOnly: false
+	},
+	{
+		id: 'canvass-for-our-revolution',
+		name: 'Canvass for Our Revolution',
+		defaultValues: {
+			name: 'Canvass for Our Revolution',
+			description: "You\'re invited to join your neighbors and supporters to knock on the doors of supporters and undecided voters. We\'ll provide you with a script, a list of voters that you\'ll be talking to, and a map of where to go. We\'ll also train you to use your time effectively out in the field. Our victory starts with us knocking on doors together.",
+		},
+		adminOnly: false
+	}
 ].sort(dynamicSort("name"));
 
 var shiftSchema = null;
