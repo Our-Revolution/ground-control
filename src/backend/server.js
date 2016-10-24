@@ -587,7 +587,9 @@ async function startApp() {
       // 'vol2vol': { id: 47, staffOnly: true },
       // 'rally': { id: 14, staffOnly: true },
       // 'voter-registration': { id: 22, staffOnly: false, requirePhone: true },
-      'our-revolution-kickoff': { id:52, staffOnly: false, requirePhone: true}
+      'our-revolution-kickoff': { id:52, staffOnly: false, requirePhone: true},
+      'phone-bank': { id: 53, staffOnly: false, requirePhone: true},
+      'canvass-for-our-revolution': { id: 54, staffOnly: false, requirePhone: true},
     }
 
     function getDayWithDefaultShifts(shiftSchemaMap, eventType, shiftIDs, capacity, day) {
