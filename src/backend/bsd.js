@@ -525,6 +525,8 @@ export default class BSD {
       inputs['days'] = [eventDate]
     }
 
+    inputs['chapter_id'] = 2
+
     return inputs
   }
 

@@ -1510,9 +1510,9 @@ const GraphQLEmailHostAttendees = mutationWithClientMutationId({
     }
 
     const email = {
-      from: 'info@berniesanders.com',
+      from: 'info@ourrevolution.com',
       'h:Reply-To': replyTo,
-      to: 'info@berniesanders.com',
+      to: 'info@ourrevolution.com',
       bcc: [...bcc, ...recipients],
       subject: subject,
       text: message

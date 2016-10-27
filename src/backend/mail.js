@@ -63,7 +63,7 @@ regeisterTemplatePartials(partials)
 
 // const messageRichTextTemplate = new EmailTemplate(templateDir + '/message.hbs')
 const messageRichTextTemplate = Handlebars.compile(fs.readFileSync(templateDir + '/message.hbs', {encoding: 'utf-8'}));
-const senderAddress = 'Team Bernie<info@berniesanders.com>'
+const senderAddress = 'Our Revolution<info@ourrevolution.com>'
 const inDevEnv = (process.env.NODE_ENV === 'development')
 const publicEventsRootUrl = process.env.PUBLIC_EVENTS_ROOT_URL
 
