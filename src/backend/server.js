@@ -590,6 +590,7 @@ async function startApp() {
       'our-revolution-kickoff': { id:52, staffOnly: false, requirePhone: true},
       'phone-bank': { id: 53, staffOnly: false, requirePhone: true},
       'canvass-for-our-revolution': { id: 54, staffOnly: false, requirePhone: true},
+      'no-dapl-day-of-action': {id: 57, staffOnly: false, requirePhone: true}
     }
 
     function getDayWithDefaultShifts(shiftSchemaMap, eventType, shiftIDs, capacity, day) {
