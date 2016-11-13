@@ -309,7 +309,8 @@ var eventTypes = [
 			name: 'NoDAPL Day of Action',
 			description: "<p>The movement to stop the Dakota Access Pipeline is growing stronger by the day, and it’s time for all of us to rise up and play a role in this fight.</p>\n<p>Join us on Tuesday, November 15 for a solidarity action and rally calling on President Obama to instruct the Army Corps of Engineers to revoke the permits for this dirty oil pipeline. This day of action is part of a broader call to action happening across the country targeting decision makers & stakeholders at every level. By gathering we hope to call attention to the brave water and land protectors at Standing Rock and encourage President Obama to stop the pipeline.</p>\n<p>Please bring art and banners -- and be sure to share on social media with #NoDAPL. Some sample messages for art include:</p>\n\n<ul><li>People over Pipelines</li><li>#NoDAPL</li><li>In Solidarity with Standing Rock</li><li>Obama: Stop the Dakota Access Pipeline</li></ul>"
 		},
-		adminOnly: false
+		adminOnly: false,
+		disabled: ['contact_phone', 'public_phone']
 	}
 ].sort(dynamicSort("name"));
 
